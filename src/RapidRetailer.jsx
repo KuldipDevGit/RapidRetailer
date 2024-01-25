@@ -1,10 +1,12 @@
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 
 function RapidRetailer() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Footer />
+    </>
   );
 }
 
