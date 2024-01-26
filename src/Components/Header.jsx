@@ -95,9 +95,11 @@ const Header = () => {
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton edge="end" aria-label="login">
-                <AccountCircleIcon />
-              </IconButton>
+              <Link to="/login">
+                <IconButton edge="end" aria-label="login">
+                  <AccountCircleIcon />
+                </IconButton>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
