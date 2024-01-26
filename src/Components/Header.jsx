@@ -1,4 +1,5 @@
-import { Stack, Grid, Button, IconButton } from "@mui/material"; // Correct imports
+import { Stack, Grid, IconButton } from "@mui/material";
+import { Link } from "react-router-dom";
 
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -11,7 +12,7 @@ const Header = () => {
         width: "100%",
         fontFamily: "sans-serif",
         fontSize: "16px",
-        margin: "o auto",
+        margin: "0 auto",
         boxShadow: "0 5px 10px rgba(0,0,0,0.2), 0 10px 25px rgba(0,0,0,0.1)",
         borderRadius: "10px",
         padding: "15px",
@@ -30,29 +31,59 @@ const Header = () => {
         <Grid item xs={6}>
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <Button variant="outlined" size="small">
+              <Link
+                component="button"
+                variant="outlined"
+                size="small"
+                sx={{ textDecoration: "none", color: "#000" }}
+                to="/shop"
+              >
                 Shop
-              </Button>
+              </Link>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="small">
+              <Link
+                component="button"
+                variant="outlined"
+                size="small"
+                sx={{ textDecoration: "none", color: "#000" }}
+                to="/men"
+              >
                 Men
-              </Button>
+              </Link>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="small">
+              <Link
+                component="button"
+                variant="outlined"
+                size="small"
+                sx={{ textDecoration: "none", color: "#000" }}
+                to="/woman"
+              >
                 Women
-              </Button>
+              </Link>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="small">
+              <Link
+                component="button"
+                variant="outlined"
+                size="small"
+                sx={{ textDecoration: "none", color: "#000" }}
+                to="/kids"
+              >
                 Kids
-              </Button>
+              </Link>
             </Grid>
             <Grid item>
-              <Button variant="outlined" size="small">
+              <Link
+                component="button"
+                variant="outlined"
+                size="small"
+                sx={{ textDecoration: "none", color: "#000" }}
+                to="/shop"
+              >
                 Contact
-              </Button>
+              </Link>
             </Grid>
           </Grid>
         </Grid>
