@@ -5,6 +5,7 @@ import Mens from "./Components/Category/Mens";
 import Woman from "./Components/Category/Woman";
 import Kids from "./Components/Category/Kids";
 import Shop from "./Components/Category/Shop";
+import LoginPage from "./Components/Login";
 
 function RapidRetailer() {
   return (
@@ -16,6 +17,7 @@ function RapidRetailer() {
           <Route path="/men" element={<Mens />} />
           <Route path="/woman" element={<Woman />} />
           <Route path="/kids" element={<Kids />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
