@@ -33,18 +33,15 @@ const Header = () => {
             <Grid item>
               <Link
                 component="button"
-                variant="outlined"
                 size="small"
                 sx={{ textDecoration: "none", color: "#000" }}
-                to="/shop"
+                to="/"
               >
                 Shop
               </Link>
             </Grid>
             <Grid item>
               <Link
-                component="button"
-                variant="outlined"
                 size="small"
                 sx={{ textDecoration: "none", color: "#000" }}
                 to="/men"
@@ -54,8 +51,6 @@ const Header = () => {
             </Grid>
             <Grid item>
               <Link
-                component="button"
-                variant="outlined"
                 size="small"
                 sx={{ textDecoration: "none", color: "#000" }}
                 to="/woman"
@@ -65,8 +60,6 @@ const Header = () => {
             </Grid>
             <Grid item>
               <Link
-                component="button"
-                variant="outlined"
                 size="small"
                 sx={{ textDecoration: "none", color: "#000" }}
                 to="/kids"
@@ -77,7 +70,6 @@ const Header = () => {
             <Grid item>
               <Link
                 component="button"
-                variant="outlined"
                 size="small"
                 sx={{ textDecoration: "none", color: "#000" }}
                 to="/shop"

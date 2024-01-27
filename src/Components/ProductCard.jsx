@@ -14,7 +14,7 @@ import PropTypes from "prop-types";
 const ProductCard = ({ product }) => {
   return (
     <>
-      <Card>
+      <Card sx={{ width: "400px" }}>
         <CardActionArea>
           <Grid container>
             <Grid item xs={12}>

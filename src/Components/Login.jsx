@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Grid, Typography, TextField, Button, Box } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   const [username, setUsername] = useState("");
@@ -85,6 +86,11 @@ function LoginPage() {
           >
             Login
           </Button>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography component="body1">
+            Dont have account ! <Link to="/signup">lets create it</Link>
+          </Typography>
         </Grid>
       </Box>
     </Grid>
